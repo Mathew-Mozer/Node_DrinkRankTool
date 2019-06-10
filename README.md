@@ -1,3 +1,50 @@
+# Welcome to Drink Voting Tool (DVT) 1.0!
+
+This tool was created to take the previously tallied votes and assign points to each candidate then output the results to the console or to a file
+
+
+# Requirements
+
+ - Node  
+	 - [Package](https://nodejs.org/dist/v10.16.0/node-v10.16.0.pkg)	
+	 - [Installation Instructions](https://www.webucator.com/how-to/how-install-nodejs-on-mac.cfm)
+ - Git: Software repository which holds the files for Drink Voting Tool.
+	 - [Package](https://git-scm.com/download/mac)
+	 - [Installation Instructions](https://www.atlassian.com/git/tutorials/install-git)
+
+##  Downloading DVT 1.0
+
+1. Verify Installation of Node and Git
+	Type the following commands into the console. If it shows the installed version number then you did it correctly!
+	Node: **$ node -v**
+	Git: 		**$ git --version**
+2.	Type the following command in the console in order to download DVT 1.0 in your present directory
+	**$ git clone https://github.com/substantial-candidates/zhydian.git**
+3. Don't forget to change directory into the directory that was created for you.
+4. Install Dependencies of DVT
+	5. Type **$ npm install** while in the folder that was created when DVT was downloaded.
+
+    
+## Usage
+
+1. View results in command window using default file (sample-input.txt)
+	 **$ node app.js**
+2. View results in command window using specified file
+	**$ node app.js "specified file"**
+3. Output results to file
+	**$ node app.js "specified file" > "outputfile.txt"**
+	Don't forget to replace the words inside the quote with your specified file names.
+
+## Testing DVT
+1. Testing DVT is simple. Type the following command in the root directory of the project
+
+	**$ npm run test**
+
+If you have any questions and are ready to schedule me for the interview email at mathew.mozer@gmail.com
+
+
+
+
 ## Thank you for your interest in Substantial.
 
 This is a small problem that we would like you to solve so that we can get an

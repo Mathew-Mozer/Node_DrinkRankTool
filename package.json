@@ -1,0 +1,24 @@
+{
+  "name": "drinkvotingtool",
+  "version": "1.0.0",
+  "description": "Tallys points based on user rating.",
+  "main": "app.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/substantial-candidates/zhydian.git"
+  },
+  "author": "Mathew Mozer",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/substantial-candidates/zhydian/issues"
+  },
+  "homepage": "https://github.com/substantial-candidates/zhydian#readme",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "chai-string": "^1.5.0",
+    "mocha": "^6.1.4"
+  }
+}
