@@ -41,6 +41,7 @@ const rankDrinks = (drinks) =>{
     return(result)
 }
 
+//Add/Update Drinks
 const updateDrinkRating = drink =>{
     drinkIndex = getDrinkIndex(drink.name)
     if(drinkIndex===-1){
@@ -49,11 +50,17 @@ const updateDrinkRating = drink =>{
         drinks[drinkIndex].points += drink.points
     }
 }
+
+//Gets points from array of possible point values
 const getDrinkPoints = (rank) => (points[rank-1])
+
+//Received input from the file and parse each line passed.
 const parseDrink = (line) => ({
     name:line.substring(0,line.length-1).trim(),
     points:getDrinkPoints(line.slice(-1))
 })
+
+//Reads file
 const readFile = () =>{
     try {
         if (fs.existsSync(currentFile))
