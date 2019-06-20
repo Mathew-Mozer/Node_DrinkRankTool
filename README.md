@@ -45,7 +45,7 @@ If you have any questions and are ready to schedule me for the interview email a
 
 
 
-## Thank you for your interest in Substantial.
+## Original Code Challenge
 
 This is a small problem that we would like you to solve so that we can get an
 idea of your coding ability. Your submission will be run in a clean environment
@@ -59,10 +59,6 @@ particular we look for clean, well-designed, maintainable code. Although this is
 a rather small task, it should be approached as you would an actual task for a
 customer.
 
-### When you are finished
-
-Please push your solution to the master branch in the provided github
-repository. There is no need to fork this repository to your own github account.
 ## The Problem
 
 A special event to taste and rate new LaCroix flavors is happening. Attendees
@@ -125,6 +121,4 @@ acceptable for Swift/Objective-C solutions) Please use platform-agnostic
 constructs where possible (line-endings and file-path-separators are two
 problematic areas).
 
-Questions?
-----------
-Please email jobs+coding-test@substantial.com if you have any questions.
+
